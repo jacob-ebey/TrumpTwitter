@@ -6,7 +6,7 @@ A simple to use console application for exploring Trump's Twitter feed.
 **TrumpTwitter** exposes the ability for anyone to search through Trumps tweets and view info about where posts come from.
 
 ## Getting Started
-Download and install TrumpTwitter from URL
+Download and install TrumpTwitter from [https://github.com/jacob-ebey/TrumpTwitter/raw/master/TrumpTwitter/publish/TrumpTwitter.1.0.exe](https://github.com/jacob-ebey/TrumpTwitter/raw/master/TrumpTwitter/publish/TrumpTwitter.1.0.exe).
 
 I recommend setting [VSCode](https://code.visualstudio.com/Download) as your default .json editor. When using the search command, the results will be opened in your default
 text editor. If the editor supports file refreshing like [VSCode](https://code.visualstudio.com/Download) does, the file will be hot updated in the editor window.
