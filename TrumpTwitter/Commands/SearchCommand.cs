@@ -34,14 +34,6 @@ namespace TrumpTwitter.Commands
             };
             var results = tweets
                 .Where(t => doCheck(t.FullText));
-                //.Select(t => new
-                //{
-                //    Id = t.Id,
-                //    FullText = WebUtility.HtmlDecode(t.FullText),
-                //    CreatedAt = t.CreatedAt,
-                //    Source = Tools.ParseSource(t.Source),
-                //    Url = t.Url
-                //});
 
             Console.WriteLine();
             Console.WriteLine($"Found {results.Count()} tweets since {tweets.Last().CreatedAt.ToString("MMM d yyyy")} containing '{query.Replace("|", "' or '")}'.");

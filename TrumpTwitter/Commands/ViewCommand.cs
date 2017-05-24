@@ -32,7 +32,7 @@ namespace TrumpTwitter.Commands
             if (long.TryParse(paramSplit[0], out id))
             {
                 var tweet = tweets.FirstOrDefault(t => t.Id == id);
-                
+
 
                 IEnumerable<ITweet> viewTweets = tweets.OrderBy(t => t.Id);
                 int index = viewTweets.IndexOf(tweet);
@@ -52,10 +52,7 @@ namespace TrumpTwitter.Commands
                     .Skip(skip)
                     .Take(take);
 
-                foreach (var nextTweet in viewTweets)
-                {
-                    Console.WriteLine(JsonConvert.SerializeObject(nextTweet));
-                }
+                Console.WriteLine(JsonConvert.SerializeObject(viewTweets));
             }
             else
             {
