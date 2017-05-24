@@ -5,13 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ConsoleApp1")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ConsoleApp1")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyTitle("TrumpTwitter")]
+[assembly: AssemblyDescription("A simple to use console application for exploring Trump's Twitter feed.")]
+[assembly: AssemblyCompany("Jacob Ebey")]
+[assembly: AssemblyProduct("TrumpTwitter")]
+[assembly: AssemblyCopyright("Copyright © Jacob Ebey 2017")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible

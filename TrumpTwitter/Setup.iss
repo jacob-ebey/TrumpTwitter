@@ -4,7 +4,7 @@
 #define MyAppName "TrumpTwitter"
 #define MyAppVersion "1.0"
 #define MyAppPublisher "Jacob Ebey"
-#define MyAppExeName "ConsoleApp1.exe"
+#define MyAppExeName "TrumpTwitter.exe"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
@@ -19,7 +19,7 @@ DefaultDirName={pf}\{#MyAppName}
 DisableDirPage=yes
 DisableProgramGroupPage=yes
 OutputDir=publish
-OutputBaseFilename={#MyAppName}
+OutputBaseFilename={#MyAppName}.{#MyAppVersion}
 Compression=lzma
 SolidCompression=yes
 
@@ -30,11 +30,11 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "bin\Release\ConsoleApp1.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "bin\Release\TrumpTwitter.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "bin\Release\Autofac.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "bin\Release\Autofac.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "bin\Release\ConsoleApp1.exe.config"; DestDir: "{app}"; Flags: ignoreversion
-Source: "bin\Release\ConsoleApp1.pdb"; DestDir: "{app}"; Flags: ignoreversion
+Source: "bin\Release\TrumpTwitter.exe.config"; DestDir: "{app}"; Flags: ignoreversion
+Source: "bin\Release\TrumpTwitter.pdb"; DestDir: "{app}"; Flags: ignoreversion
 Source: "bin\Release\Microsoft.Threading.Tasks.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "bin\Release\Microsoft.Threading.Tasks.Extensions.Desktop.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "bin\Release\Microsoft.Threading.Tasks.Extensions.Desktop.xml"; DestDir: "{app}"; Flags: ignoreversion
